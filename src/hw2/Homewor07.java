@@ -3,7 +3,11 @@ package hw2;
 public class Homewor07 {
 	public static void main(String[] args) {
 		// 請設計一隻Java程式，輸出結果為以下：
+<<<<<<< HEAD
 		// A		65
+=======
+		// A
+>>>>>>> f35b6f8a84262169b00c9bddae42e8b7cb94300d
 		// BB
 		// CCC
 		// DDDD
@@ -11,11 +15,17 @@ public class Homewor07 {
 		// FFFFFF
 		int i, j;
 		char a = 'A';
+<<<<<<< HEAD
 		for (; a <= 'F'; a++) {		//從a('A')到 'F'（共 6 次循環） a~f
 			j = a - 'A' + 1;
 
 			//A=65,a=97
 			//F=70
+=======
+		for (; a <= 'F'; a++) {
+			j = a - 'A' + 1;
+
+>>>>>>> f35b6f8a84262169b00c9bddae42e8b7cb94300d
 			for (i = 0; i < j; i++) {
 				System.out.print(a);
 			}
