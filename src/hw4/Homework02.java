@@ -8,19 +8,14 @@ public class Homework02 {
 		//例如String s = “Hello World”，執行結果即為dlroW olleH
 		//(提示：String方法，陣列)
 		Scanner sc = new Scanner(System.in);
-		String s = sc.nextLine();
 		System.out.println("請輸入內容:");	
+		String s = sc.nextLine();
 		
-		char[]charArr = s.toCharArray(); //toCharArray()將字串轉換成字元陣列
+//		char[]charArr = s.toCharArray(); //toCharArray()將字串轉換成字元陣列
 			
 		for(int i = s.length()-1; i>=0; i--) {
-			System.out.print(s.charAt(i));
-		
-		
-		
-		
-
-		}
+			System.out.print(s.charAt(i));								
+		}		
 	}
 
 }
